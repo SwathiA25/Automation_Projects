@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.TricentisVehicleProject.AllTests">
+        <methods>
+          <include name="automobileTests" invocation-numbers="0 1 2 3"/>
+          <include name="motorcycleTests" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="camperTests" invocation-numbers="0 1 2 3"/>
+          <include name="truckTests" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.TricentisVehicleProject.AllTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
